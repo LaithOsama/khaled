@@ -1,2 +1,1 @@
-# khaled
-https://laithosama.github.io/khaled
+# laithosama.github.io/khaled
