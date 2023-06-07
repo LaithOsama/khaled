@@ -55,7 +55,7 @@ article img {
 }
 
 time {
-  color: #777;
+  color: #655a3d;
   margin-right: 25px;
 }
 #title {
@@ -78,7 +78,7 @@ ol {
 }
 
 li { 
-  margin-top:2em;
+  margin-top:.5em;
 }
 
 @media only screen and (max-width: 600px) {
@@ -89,9 +89,12 @@ li {
   }
 
   time {
-  margin-right:5px;
+    margin-right:5px;
   }
-
+  ol {
+    margin:0;
+    padding:0;
+  }
   #title {
     font-size: 36px;
     margin-bottom: 0.4em;
