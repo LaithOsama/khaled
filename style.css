@@ -6,7 +6,7 @@
 }
 
 html {
-  font: 24px/1.6 'Times New Roman', Times, 'Times Roman';
+  font: 22px/1.6 'Times New Roman', Times, 'Times Roman';
   background: #fbf1c7;
   color: #655a3d;
 }
@@ -14,6 +14,9 @@ html {
 body {
   max-width: 75%;
   margin: 1em auto;
+}
+
+main, article {
   text-align: justify;
 }
 
@@ -53,6 +56,8 @@ article img {
 time {
   color: #655a3d;
   margin-right: 25px;
+  font-size:18px;
+  white-space: nowrap
 }
 
 #title {
@@ -77,7 +82,6 @@ li {
 @media only screen and (max-width: 600px) {
   body {
     max-width: 100%;
-    font-size: 20px;
     padding: 0 .5em;
   }
 
