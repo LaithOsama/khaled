@@ -1,103 +1,24 @@
-@font-face { 
-  font-display: swap;
-  font-family: 'KFGQPC Uthman Taha Naskh'; 
-  src: url('fonts/uthman-taha-naskh.woff2'); 
-  unicode-range: U+600-6FF, U+FB50-FDFF, U+FE70-FEFF; 
-}
-
-html {
-  font: 22px/1.6 'Times New Roman', Times, 'Times Roman';
-  background: #fbf1c7;
-  color: #655a3d;
-}
-
-body {
-  max-width: 75%;
-  margin: 1em auto;
-}
-
-main, article {
-  text-align: justify;
-}
-
-main[dir=rtl], article[dir=rtl], li a {
-  direction: rtl;
-  font-family: 'KFGQPC Uthman Taha Naskh';
-}
-
+@font-face{font-display:swap;font-family:'KFGQPC Uthman Taha Naskh';src:url(fonts/uthman-taha-naskh.woff2);unicode-range:U+600-6FF,U+FB50-FDFF,U+FE70-FEFF}
+#date{font-size:24px;font-style:italic;text-align:center}
+#title{font-size:68px;text-align:center}
+a{color:#8c1919;text-decoration:none}
+article img{height:auto;margin:0 auto;max-height:100%;width:100%}
+body{margin:1em auto;max-width:75%}
 h1,h2,#title{border-bottom:3px double;padding-bottom:.5em}
-
-header {
-  margin: 0 auto;
-  text-align:center;
-}
-
-header img {
-  max-height:12em;
-}
-
-p {
-  margin-bottom: 0.8em;
-}
-
-a {
-  color: #8c1919;
-  text-decoration: none;
-}
-
-
-article img {
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  max-height: 100%;
-}
-
-time {
-  color: #655a3d;
-  margin-right: 25px;
-  font-size:18px;
-  white-space: nowrap
-}
-
-#title {
-  text-align: center;
-  font-size: 68px;
-}
-
-#date {
-  font-style: italic;
-  font-size: 24px;
-  text-align: center;
-}
-
-ol {
-  list-style: none;
-}
-
-li { 
-  margin-top:.5em;
-}
-
+header{margin:0 auto;text-align:center}
+header img{max-height:12em}
+html{background:#fbf1c7;color:#655a3d;font:22px/1.6 'Times New Roman',Times,'Times Roman'}
+li{margin-top:.5em}
+main,article{text-align:justify}
+main[dir=rtl],article[dir=rtl],li a{direction:rtl;font-family:'KFGQPC Uthman Taha Naskh','Times New Roman'}
+ol{list-style:none}
+p{margin-bottom:.8em}
+time{color:#655a3d;font-size:18px;margin-right:25px;white-space:nowrap}
 @media only screen and (max-width: 600px) {
-  body {
-    max-width: 100%;
-    padding: 0 .5em;
-  }
-
-  time {
-    margin-right:5px;
-  }
-  ol {
-    margin:0;
-    padding:0;
-  }
-  #title {
-    font-size: 36px;
-  }
-
-  #date {
-    font-size: 16px;
-  }
+#date{font-size:16px}
+#title{font-size:36px}
+body{max-width:90%}
+ol{padding:0}
+time{margin-right:5px}
 }
 
